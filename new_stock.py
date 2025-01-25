@@ -9,7 +9,7 @@ def calculate_stock_growth_with_dividends(
     dividend_yield_per_period = annual_dividend_yield / dividend_payouts_per_year
     period_growth_factor = (1 + annual_stock_price_change) ** (1 / dividend_payouts_per_year)
     
-    # start with initial investment (creating a new variable so that the original doesn't change)
+    # start with initial investment
     investment_value = initial_investment
     
     # loop through each payout period
